@@ -32,7 +32,7 @@ def translate(dna):
     return protein
 
 # Test with a sample sequence (starts with ATG - Methionine)
-my_dna = "ATGCCGTACTAG"
+my_dna = "ATGAGTAAAGGAGAAGAACTTTTCACTGGAGTTGTCCCAATTCTTGTTGAATTAGATGGTGATGTTAATGGGCACAAATTTTCTGTCAGT"
 my_protein = translate(my_dna)
 
 print(f"DNA Sequence: {my_dna}")
