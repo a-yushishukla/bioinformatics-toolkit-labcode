@@ -14,3 +14,6 @@ rna_sequence = sequence.replace("T", "U")
 print(f"Sequence Length: {len(sequence)} bp")
 print(f"GC Content: {gc_content:.2f}%")
 print(f"RNA: {rna_sequence}")
+
+# ADD THIS: AYUSHI
+print("Analysis complete for the Daerblue Lab!)
