@@ -37,4 +37,4 @@ my_protein = translate(my_dna)
 
 print(f"DNA Sequence: {my_dna}")
 print(f"Protein Sequence: {my_protein}")
-print("Translation complete for the Daerblue Lab!")
+print("Translation complete for the Daerblue Lab!") 
