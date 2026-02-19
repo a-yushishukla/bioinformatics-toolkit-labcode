@@ -31,3 +31,11 @@ A manual implementation of the genetic code to translate DNA into Amino Acids.
 
 ### 3. Professional GFP Translation (`gfp_pro_translation.py`)
 Using the Biopython library to handle real-world jellyfish GFP sequences.
+
+
+## 🔍 Project Highlights
+
+### Project 1: Clinical Variant Alignment
+* **Task:** Performed comparative genomic alignment of SARS-CoV-2 variants (Wuhan vs. Delta).
+* **Objective:** Identify key missense mutations within the Spike Protein receptor-binding domain.
+* **Result:** Successfully mapped the sequence and identified the L452R mutation region using Biopython's `PairwiseAligner` and BLOSUM62 matrix.
