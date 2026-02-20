@@ -35,7 +35,18 @@ Using the Biopython library to handle real-world jellyfish GFP sequences.
 
 ## 🔍 Project Highlights
 
-### Project 1: Clinical Variant Alignment
-* **Task:** Performed comparative genomic alignment of SARS-CoV-2 variants (Wuhan vs. Delta).
-* **Objective:** Identify key missense mutations within the Spike Protein receptor-binding domain.
-* **Result:** Successfully mapped the sequence and identified the L452R mutation region using Biopython's `PairwiseAligner` and BLOSUM62 matrix.
+* ### 1. Clinical Variant Alignment (SARS-CoV-2)
+* **Task:** Performed comparative genomic alignment of the Spike Protein (Wuhan vs. Delta).
+* **Objective:** Use the **BLOSUM62** matrix to identify high-impact missense mutations.
+* **Result:** Successfully identified key mutation regions (like L452R) using Biopython’s `PairwiseAligner`.
+
+### 2. Protein Analysis & Lab Prep
+* **Task:** Analyzed the Green Fluorescent Protein (GFP) sequence.
+* **Objective:** Determine the **Isoelectric Point (pI)** and **Molecular Weight**.
+* **Result:** Generated the exact chemical parameters required for protein purification experiments.
+
+### 3. Sliding Window GC Content
+* **Task:** Visualized DNA stability across the Spike protein genome.
+* **Objective:** Use a "Sliding Window" algorithm to find GC-rich regions.
+* **Visual:** Created a Matplotlib line graph showing local fluctuations in genomic stability (wuhan_spike_gc_plot.png)
+
