@@ -63,3 +63,18 @@ To build this tree, I utilized the Molecular Clock Hypothesis.
 * **The Assumption:** This model assumes that DNA sequences evolve at a relatively constant rate over time.
 
 * **The Result:** Because UPGMA uses this "constant rate" logic, it produces a Symmetrical (Ultrametric) Tree where all "leaves" (the variants) are equidistant from the root. This is a simplified but powerful way to visualize how Omicron has diverged significantly further from the Wuhan strain than Delta did.
+
+### Project 6: Clinical SNP AnalysisTask: 
+Filter and analyze Single Nucleotide Polymorphisms (SNPs) from a VCF (Variant Call Format) file.
+* **Objective:** Identify high-confidence genetic variations by removing sequencing noise and low-quality "calls."
+* **Methodology:**
+* ***VCF Parsing:*** Developed a custom parser to extract genomic coordinates (POS), reference/alternate alleles (REF/ALT), and quality scores (QUAL).
+* ***Quality Thresholding:*** Implemented a filter requiring a Quality Score > 50 and a PASS status. This ensures the mutations analyzed are statistically significant and not artifacts of the sequencing machine.
+* **Results:** Successfully isolated 3 high-confidence SNPs on Chromosome 1, including rs123 and rs456, which are ready for clinical annotation. 
+
+### High-Confidence SNP Results
+| Chromosome | Position | Mutation | Quality |
+| :--- | :--- | :--- | :--- |
+| **chr1** | 1001 | A -> G | 60.0 |
+| **chr1** | 1100 | C -> T | 95.0 |
+| **chr1** | 1200 | G -> A | 55.0 |
