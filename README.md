@@ -14,8 +14,8 @@ Welcome to my computational biology journey. This repository documents Bioinform
 | 3 | Genomic Data Visualization | ✅ Completed | Matplotlib & Circos Plots |
 | 4 | Phylogenetic Tree Construction | ✅ Completed | Evolutionary Relationship Mapping |
 | 5 | GC Content Calculation | ✅ Completed | Genome Stability & Coding Regions |
-| 6 | SNP Analysis | 📅 Planned | Genetic Variation & VCF Data |
-| 7 | Gene Expression Analysis | 📅 Planned | RNA-seq & Differential Expression |
+| 6 | SNP Analysis | ✅ Completed | Genetic Variation & VCF Data |
+| 7 | Gene Expression Analysis | ✅ Completed | RNA-seq & Differential Expression |
 | 8 | Functional Annotation | 📅 Planned | GO & KEGG Pathway Mapping |
 | 9 | Protein Structure Viz | 📅 Planned | 3D Modeling (PyMOL/Chimera) |
 | 10 | Microbial Community Analysis | 📅 Planned | 16S rRNA & Microbiome Studies |
@@ -67,7 +67,7 @@ To build this tree, I utilized the Molecular Clock Hypothesis.
 ### Project 6: Clinical SNP AnalysisTask: 
 Filter and analyze Single Nucleotide Polymorphisms (SNPs) from a VCF (Variant Call Format) file.
 * **Objective:** Identify high-confidence genetic variations by removing sequencing noise and low-quality "calls."
-* **Methodology:**
+#### Methodology:
 * ***VCF Parsing:*** Developed a custom parser to extract genomic coordinates (POS), reference/alternate alleles (REF/ALT), and quality scores (QUAL).
 * ***Quality Thresholding:*** Implemented a filter requiring a Quality Score > 50 and a PASS status. This ensures the mutations analyzed are statistically significant and not artifacts of the sequencing machine.
 * **Results:** Successfully isolated 3 high-confidence SNPs on Chromosome 1, including rs123 and rs456, which are ready for clinical annotation. 
@@ -78,3 +78,10 @@ Filter and analyze Single Nucleotide Polymorphisms (SNPs) from a VCF (Variant Ca
 | **chr1** | 1001 | A -> G | 60.0 |
 | **chr1** | 1100 | C -> T | 95.0 |
 | **chr1** | 1200 | G -> A | 55.0 |
+
+### Project 7: Differential Gene Expression Visualization
+* **Objective:** Identify changes in gene activity between two biological conditions.
+
+* **Tooling:** Utilized Pandas for matrix manipulation and Seaborn for Heatmap generation.
+
+* **Insight:** The heatmap reveals a clear "signature" where growth-related genes were suppressed and repair-related genes were activated in the treatment group, demonstrating the cellular response to the stimulus.
