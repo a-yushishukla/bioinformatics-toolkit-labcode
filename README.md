@@ -5,14 +5,14 @@ Welcome to my computational biology journey. This repository documents Bioinform
 
 ---
 
-## 🚀 Project Tracker
-## 🚀 Project Tracker (Top 10 Bioinformatics Portfolio)
+##  Project Tracker
+##  Project Tracker (Top 10 Bioinformatics Portfolio)
 | S.No | Project Title | Status | Learning Outcome |
 | :--- | :--- | :--- | :--- |
 | 1 | DNA Sequence Alignment | ✅ Completed | Needleman-Wunsch & Smith-Waterman |
 | 2 | Protein Sequence Analysis | ✅ Completed | Secondary Structure Prediction |
 | 3 | Genomic Data Visualization | ✅ Completed | Matplotlib & Circos Plots |
-| 4 | Phylogenetic Tree Construction | 📅 Planned | Evolutionary Relationship Mapping |
+| 4 | Phylogenetic Tree Construction | ✅ Completed | Evolutionary Relationship Mapping |
 | 5 | GC Content Calculation | ✅ Completed | Genome Stability & Coding Regions |
 | 6 | SNP Analysis | 📅 Planned | Genetic Variation & VCF Data |
 | 7 | Gene Expression Analysis | 📅 Planned | RNA-seq & Differential Expression |
@@ -22,7 +22,7 @@ Welcome to my computational biology journey. This repository documents Bioinform
 
 ---
 
-## 📂 Current Scripts
+##  Current Scripts
 ### 1. DNA Analysis Core (`dna_analysis.py`)
 Basic metrics including GC content and transcription logic.
 
@@ -33,7 +33,7 @@ A manual implementation of the genetic code to translate DNA into Amino Acids.
 Using the Biopython library to handle real-world jellyfish GFP sequences.
 
 
-## 🔍 Project Highlights
+##  Project Highlights
 
 * ### 1. Clinical Variant Alignment (SARS-CoV-2)
 * **Task:** Performed comparative genomic alignment of the Spike Protein (Wuhan vs. Delta).
@@ -50,3 +50,16 @@ Using the Biopython library to handle real-world jellyfish GFP sequences.
 * **Objective:** Use a "Sliding Window" algorithm to find GC-rich regions.
 * **Visual:** Created a Matplotlib line graph showing local fluctuations in genomic stability (wuhan_spike_gc_plot.png)
 
+### Project 4: Evolutionary Mapping (Phylogeny)
+Task: Construct a Phylogenetic Tree to visualize the relationship between SARS-CoV-2 variants.
+
+*  **Algorithm:** Used the UPGMA (Unweighted Pair Group Method with Arithmetic Mean) clustering method.
+
+* **Data Source:** Applied a distance matrix based on observed mutations between the Wuhan, Delta, and Omicron variants.
+
+####  Methodology & Assumptions
+To build this tree, I utilized the Molecular Clock Hypothesis.
+
+* **The Assumption:** This model assumes that DNA sequences evolve at a relatively constant rate over time.
+
+* **The Result:** Because UPGMA uses this "constant rate" logic, it produces a Symmetrical (Ultrametric) Tree where all "leaves" (the variants) are equidistant from the root. This is a simplified but powerful way to visualize how Omicron has diverged significantly further from the Wuhan strain than Delta did.
