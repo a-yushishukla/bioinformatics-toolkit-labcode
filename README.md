@@ -9,9 +9,9 @@ Welcome to my computational biology journey. This repository documents Bioinform
 ## 🚀 Project Tracker (Top 10 Bioinformatics Portfolio)
 | S.No | Project Title | Status | Learning Outcome |
 | :--- | :--- | :--- | :--- |
-| 1 | DNA Sequence Alignment | 🔄 In Progress | Needleman-Wunsch & Smith-Waterman |
-| 2 | Protein Sequence Analysis | 📅 Planned | Secondary Structure Prediction |
-| 3 | Genomic Data Visualization | 📅 Planned | Matplotlib & Circos Plots |
+| 1 | DNA Sequence Alignment | ✅ Completed | Needleman-Wunsch & Smith-Waterman |
+| 2 | Protein Sequence Analysis | ✅ Completed | Secondary Structure Prediction |
+| 3 | Genomic Data Visualization | ✅ Completed | Matplotlib & Circos Plots |
 | 4 | Phylogenetic Tree Construction | 📅 Planned | Evolutionary Relationship Mapping |
 | 5 | GC Content Calculation | ✅ Completed | Genome Stability & Coding Regions |
 | 6 | SNP Analysis | 📅 Planned | Genetic Variation & VCF Data |
