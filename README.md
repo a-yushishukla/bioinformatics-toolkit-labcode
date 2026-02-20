@@ -85,3 +85,9 @@ Filter and analyze Single Nucleotide Polymorphisms (SNPs) from a VCF (Variant Ca
 * **Tooling:** Utilized Pandas for matrix manipulation and Seaborn for Heatmap generation.
 
 * **Insight:** The heatmap reveals a clear "signature" where growth-related genes were suppressed and repair-related genes were activated in the treatment group, demonstrating the cellular response to the stimulus.
+*  **Results:**
+Generated a Differential Gene Expression (DGE) heatmap using Seaborn and Pandas.
+
+Visualized mRNA expression levels for critical genes (BRCA1, TP53, MYC, EGFR) across Healthy and Treated samples.
+
+Implemented a RdYlBu_r color map to highlight Up-regulated (Red) and Down-regulated (Blue) genetic signatures.
