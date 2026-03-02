@@ -46,10 +46,11 @@ Using the Biopython library to handle real-world jellyfish GFP sequences.
 * **Objective:** Determine the **Isoelectric Point (pI)** and **Molecular Weight**.
 * **Result:** Generated the exact chemical parameters required for protein purification experiments.
 
-### 3. Sliding Window GC Content
-* **Task:** Visualized DNA stability across the Spike protein genome.
-* **Objective:** Use a "Sliding Window" algorithm to find GC-rich regions.
-* **Visual:** Created a Matplotlib line graph showing local fluctuations in genomic stability (wuhan_spike_gc_plot.png)
+## 📊 3. Sliding Window GC Content & Genomic Stability
+**Task:** Visualization of DNA stability across the Spike protein genome.
+**Method:** Implemented a **Sliding Window algorithm** to find GC-rich regions.
+**Value:** Essential for identifying coding regions and primer design.
+**Visual:** Created `wuhan_spike_gc_plot.png` showing local fluctuations in genomic stability.
 
 ### Project 4: Evolutionary Mapping (Phylogeny)
 Task: Construct a Phylogenetic Tree to visualize the relationship between SARS-CoV-2 variants.
