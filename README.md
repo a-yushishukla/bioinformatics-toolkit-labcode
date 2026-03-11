@@ -1,4 +1,4 @@
-# 🧬 Bioinformatics Toolkit & Portfolio 
+# Bioinformatics Toolkit & Portfolio 
 ### Created by Ayushi Shukla
 
 Welcome to my computational biology journey. This repository documents Bioinformatics journey, featuring foundational projects.
@@ -35,7 +35,7 @@ Using the Biopython library to handle real-world jellyfish GFP sequences.
 
 ##  Project Highlights
 
-## 🧬 1. Clinical Sequence Alignment & Variant Analysis
+## 1. Clinical Sequence Alignment & Variant Analysis
 **Task:** Comparative genomic alignment of the SARS-CoV-2 Spike Protein (Wuhan vs. Delta).
 **Technical Specs:** - **Algorithm:** Needleman-Wunsch (Global Alignment).
 - **Matrix:** **BLOSUM62** for biologically accurate scoring.
@@ -46,7 +46,7 @@ Using the Biopython library to handle real-world jellyfish GFP sequences.
 * **Objective:** Determine the **Isoelectric Point (pI)** and **Molecular Weight**.
 * **Result:** Generated the exact chemical parameters required for protein purification experiments.
 
-## 📊 3. Sliding Window GC Content & Genomic Stability
+## 3. Sliding Window GC Content & Genomic Stability
 **Task:** Visualization of DNA stability across the Spike protein genome.
 **Method:** Implemented a **Sliding Window algorithm** to find GC-rich regions.
 **Value:** Essential for identifying coding regions and primer design.
